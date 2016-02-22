@@ -1,0 +1,62 @@
+
+body {
+	background-color: white;
+	background-image: url('../images/rock-polka.png');
+	background-size: 360px 360px;
+	background-position: 0 0;
+	background-attachment: fixed;
+	color: white;
+	font-family: 'Helvetica Black', sans-serif;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/* Style all the circular active areas */
+.circle {
+	width: 225px;
+	height: 225px;
+	border-radius: 50%;
+	cursor: pointer;
+	position: absolute;
+	margin: 3px;
+	padding: 0;
+	background-size: 100% 100%;
+}
+
+.one {
+	background-image: url('../images/cdg-btn-01.png');
+	top: 65px;
+	left: 65px;
+}
+
+.two {
+	background-image: url('../images/cdg-btn-02.png');
+	top: 65px;
+	left: 425px;
+}
+
+.three {
+	background-image: url('../images/cdg-btn-03.png');
+	top: 65px;
+	left: 785px;
+}
+
+.four {
+	background-image: url('../images/cdg-btn-04.png');
+	top: 245px;
+	left: -115px;
+}
+
+.five {
+	background-image: url('../images/cdg-btn-05.png');
+	top: 245px;
+	left: 245px;
+}
+
+.six {
+	background-image: url('../images/cdg-btn-06.png');
+	top: 245px;
+	left: 605px;
+}
